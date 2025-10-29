@@ -1,0 +1,5 @@
+{
+  "name": "Student Feedback System",
+  "description": "An interactive web application for students to provide anonymous feedback on courses and faculty. It includes data analytics and visual reports for faculty to drive course improvement, a suggestion box, and a system to track actions taken on feedback.",
+  "requestFramePermissions": []
+}
