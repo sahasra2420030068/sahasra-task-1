@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>Responsive Web Page</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+<header> 
+<h1>Welcome to My Responsive Page</h1> 
+</header> 
+<section class="about"> 
+<img src="C:\Users\sahas\Downloads\kluh.png"> 
+<p>This page includes a responsive image and adjusts layout using CSS media 
+queries.</p> 
+  </section> 
+</body> 
+</html> 
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+} 
+ 
+header { 
+  background-color: #333; 
+  color: white; 
+  padding: 20px; 
+  text-align: center; 
+} 
+ 
+.about { 
+  padding: 20px; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 20px; 
+} 
+ 
+.responsive-img { 
+  width: 100%; 
+  max-width: 400px; 
+  height: auto; 
+} 
+ 
+/* Media Query: Stack content on small screens */ 
+@media (max-width: 600px) { 
+  .about { 
+    flex-direction: column; 
+  } 
+}
